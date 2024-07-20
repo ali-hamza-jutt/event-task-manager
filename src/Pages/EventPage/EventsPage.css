@@ -1,0 +1,50 @@
+.events-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .event-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .event-form-container,
+  .event-calendar-container {
+    width: 48%;
+  }
+  
+  .event-list-container {
+    margin-top: 20px;
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+  }
+  
+  .MuiPaper-root {
+    background-color: #fff !important;
+  }
+  
+  .MuiButtonBase-root {
+    color: #000 !important;
+  }
+  
+  .MuiInputBase-root {
+    color: #000 !important;
+  }
+  
+  .MuiInputLabel-root {
+    color: #555 !important;
+  }
+  
+  .MuiTextField-root {
+    margin: 10px 0 !important;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #1976d2 !important;
+    color: #fff !important;
+  }
+  
